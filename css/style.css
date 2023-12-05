@@ -38,6 +38,7 @@ header ul a {
   background-color: rgb(126, 115, 100);
   display: grid;
   justify-content: center;
+  justify-items: center;
   align-items: center;
   grid-template-areas:
     "titulo  imagen"
@@ -49,14 +50,16 @@ header ul a {
 }
 
 .portada h1 {
+  display: grid;
+  justify-content: center;
   background-color: lightblue;
   grid-area: titulo;
-  justify-content: center;
   padding: 2rem;
   margin: 2rem;
 }
 
 .portada img {
+  display: grid;
   background-color: lightcoral;
   grid-area: imagen;
 }
@@ -74,6 +77,8 @@ header ul a {
 
 .portada a {
   background-color: lightgreen;
+  display: grid;
+  justify-content: center;
   grid-area: link;
   padding: 2rem;
   margin: 2rem;
