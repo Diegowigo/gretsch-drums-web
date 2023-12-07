@@ -9,8 +9,7 @@
 }
 
 body {
-  margin-top: 115px;
-  position: relative;
+
 }
 
 /* HEADER */
@@ -36,7 +35,6 @@ header ul a {
 
 .portada {
   background-color: rgb(26, 26, 26);
-
 } 
 
 main section div {
@@ -50,19 +48,20 @@ main section div {
 }
 
 .portada img {
-  padding: 2rem;
-  margin: 2rem;
+  padding-left: 3rem;
 }
 
 .portada p {
   font-size: 1.2rem;
   color: rgb(216, 216, 216);
-  border-width: 0.12rem;
+  border-width: 0.1rem;
   border-style: solid;
   border-color: white;
-  border-radius: 2rem;
+  border-radius: 2.5rem;
   padding: 2rem;
   margin: 2rem;
+  box-shadow: 0 0 5px rgb(216, 216, 216);
+  box-shadow: ;
 }
 
 .portada a {
@@ -71,6 +70,11 @@ main section div {
   padding: 2rem;
   margin: 2rem;
   text-decoration: none;
+}
+
+.btn-light {
+  --bs-btn-bg: black;
+  --bs-btn-hover-bg: none;
 }
 
 #img-principal {
@@ -103,11 +107,12 @@ main section div {
 
 footer {
   background-color: rgb(43, 44, 36);
+  color: rgb(216, 216, 216);
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: rgb(216, 216, 216);
 }
 
 footer li img {
