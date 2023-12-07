@@ -19,24 +19,32 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-dark bg-dark">
-      <a href="index.html">
-        <img src="img/logos/gretsch-drums-logo.png" alt="Logo Gretsch Drums" />
-      </a>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="pages/catalogo.html">Catálogo</a></li>
-        <li><a href="pages/media.html">Media</a></li>
-        <li><a href="pages/nosotros.html">Nosotros</a></li>
-        <li><a href="pages/contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar fixed-top navbar-dark">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="img/logos/gretsch-drums-logo.png" alt="Logo Gretsch Drums" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" href="pages/catalogo.html">Catálogo</a></li>
+            <li class="nav-item"><a class="nav-link active" href="pages/media.html">Media</a></li>
+            <li class="nav-item"><a class="nav-link active" href="pages/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link active" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <main>
     <section class="portada text-center">
       <div class="row">
-        <div class="col-4" >
+        <div class="col-sm-12 col-md-4 col-lg-8 col-xl-4">
           <h1>Baterías Gretsch</h1>
           <p>
             Baterías Gretsch es una icónica marca americana fabricadas en
@@ -45,15 +53,14 @@
             proporcionado <strong>"Ese gran sonido Gretsch"</strong> a
             bateristas alrededor del mundo.
           </p>
-          <!-- cambiar color -->
           <button type="button" class="btn btn-light"><a href="pages/catalogo.html">Ver más</a></button>
         </div>
-        <img class="col-8" id="img-principal" src="img/gretsch-drums1.png" alt="Batería Gretsch" />
+        <img class="col-sm-12 col-md-8 col-lg-4 col-xl-8" id="img-principal" src="img/gretsch-drums1.png" alt="Batería Gretsch" />
       </div>
     </section>
 
     <div>
-      <section class="box">
+      <section class="box-modelos">
 
         <h2>Modelos</h2>
 
@@ -76,30 +83,14 @@
         <article class="tarjeta">
           <img class="img-modelos" src="img/catalinamaple-drums.png" alt="Modelo Catalina Maple">
           <h3>Catalina Maple</h3>
-          <p>From its sleek, innovative hardware designs and legendary Gretsch-formula shell, Catalina Maple is a
-            favorite among players that want a terrific sounding Gretsch drum set with ergonomically satisfying playing
-            experience and a fresh, contemporary look. <br> Catalina Maple's mounting hardware includes a round “gas
-            cap” bass drum mount plate and an ultra-low profile GTS mounting system. Gretsch T-Wing screws and bolts are
-            included on all fittings for drummer-friendly feel and rubber isolated die-cast bass drum claws help keep
-            bass drum hoops looking new. <br> The 7-ply Gretsch-formula maple shell has 30-degree bearing edges and
-            natural shell interiors. Bass drums include telescopic bass drum spurs and matching maple wood bass drum
-            hoops. Toms and snare drums feature 2.5mm triple flanged hoops. All drums are fitted with Remo® drum heads.
+          <p>Desde sus elegantes y innovadores diseños de hardware y su legendario cascarón con fórmula Gretsch, Catalina Maple es un favorito entre los músicos que desean un excelente set de batería Gretsch con una experiencia de ejecución ergonómicamente satisfactoria y un aspecto fresco y contemporáneo. <br> El hardware de montaje de Catalina Maple incluye una placa de montaje redonda para el bombo, llamada "gas cap", y un sistema de montaje GTS de perfil ultra bajo. Los tornillos y pernos de ala en forma de T de Gretsch se incluyen en todos los accesorios para proporcionar una sensación amigable para el baterista, y las garras de fundición de aluminio aisladas con goma ayudan a mantener los aros del bombo como nuevos. <br> El cascarón de arce de fórmula Gretsch de 7 capas tiene bordes de rodamiento de 30 grados e interiores de cascarón naturales. Los bombos incluyen espolones telescópicos y aros de madera de arce a juego. Los toms y cajas tienen aros triples de 2.5mm. Todos los tambores vienen equipados con parches de tambor Remo®.
           </p>
         </article>
 
         <article class="tarjeta">
           <img class="img-modelos" src="img/anniversary-drums.png" alt="Modelo Anniversary">
           <h3>Edición Aniversario</h3>
-          <p>In 1883, Friedrich Gretsch opened his small music shop in Brooklyn, N.Y., making drums, banjos, and
-            tambourines. No one expected his business on Middleton Street to become one of the most respected drum
-            companies in the world. Now 140 years later, Gretsch Drums are among the most iconic in the history of
-            music. <br> To celebrate our 140th anniversary, Gretsch is proud to present the Limited Edition Gretsch
-            140th Anniversary drum kit. Each one of these kits is painstakingly constructed to honor the rich Gretsch
-            legacy and offer drummers a collectible piece of Gretsch history that admirers will remember for years to
-            come. <br> The 140th limited edition kit features a 6 ply maple/poplar/gum hybrid shell finished in Ebony
-            Stardust gloss lacquer. Nickel-plated hardware completes this one-of-a-kind kit and adds to its visual
-            beauty. Each kit includes a set of custom-designed drum bags and a certificate of authenticity signed by
-            Fred Gretsch and the factory artisans who built them.</p>
+          <p>En 1883, Friedrich Gretsch abrió su pequeña tienda de música en Brooklyn, Nueva York, fabricando tambores, banjos y panderetas. Nadie esperaba que su negocio en Middleton Street se convirtiera en una de las compañías de baterías más respetadas del mundo. Ahora, 140 años después, las baterías Gretsch se encuentran entre las más icónicas en la historia de la música. <br> Para celebrar nuestro 140 aniversario, Gretsch se enorgullece en presentar la batería de edición limitada Gretsch 140th Anniversary. Cada uno de estos kits se construye minuciosamente para honrar el rico legado de Gretsch y ofrecer a los bateristas una pieza coleccionable de la historia de Gretsch que los admiradores recordarán durante años. <br> El kit de edición limitada 140th presenta un cascarón híbrido de 6 capas de arce, álamo y goma, acabado en laca brillante Ebony Stardust. El hardware niquelado completa este kit único en su clase y añade a su belleza visual. Cada kit incluye un juego de fundas de batería diseñadas a medida y un certificado de autenticidad firmado por Fred Gretsch y los artesanos de la fábrica que los construyeron.</p>
         </article>
       </section>
     </div>
