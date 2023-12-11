@@ -15,6 +15,11 @@ hr {
 
 .row {
   --bs-gutter-x: 0;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 /* HEADER */
@@ -30,21 +35,33 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: center;
+  padding: 0.3rem 111px 0.3rem 0;
+}
+
+.nav-item {
+  padding: 0 2rem;
+}
+
+.navbar-expand-lg {
+  display: flex;
   justify-content: space-around;
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+}
+
+.navbar img {
+  width: 80%;
+  padding: 0.5rem 0;
 }
 
 /* PORTADA */
 
 .portada {
   background-color: rgb(26, 26, 26);
-  top: 152px;
 }
 
 .portada .row {
   margin-right: auto;
-  margin-top: 116px;
+  margin-top: 111.98px;
 }
 
 main section div {
@@ -55,6 +72,7 @@ main section div {
 .portada h1 {
   color: rgb(216, 216, 216);
   font-size: 2rem;
+  margin-top: 1rem;
 }
 
 .portada img {
@@ -127,12 +145,27 @@ main section div {
   margin-bottom: 0;
 }
 
+.noticias-form {
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+margin: 1rem;
+}
+
 #boton-noticias {
   width: 100px;
 }
 
 #email {
+  margin: 1rem;
   width: 250px;
+}
+
+#noticias-img {
+  max-width: 1050px;
+  width: 75vw;
+  margin-bottom: 33.59px;
 }
 
 /* FOOTER */
@@ -145,8 +178,10 @@ footer {
 
 footer p {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 footer a {
@@ -164,14 +199,18 @@ footer ul {
   color: rgb(216, 216, 216);
 }
 
+.logos-link {
+  margin-top: 1rem;
+}
+
 footer li img {
   width: 1.5rem;
   display: flex;
   justify-content: space-around;
 }
 
-#img-footer {
-  max-width: 1200px;
-  min-width: 320px;
-  width: 75vw;
+#logo-gretsch {
+  max-width: 100px;
+  width: 25vw;
+  margin-bottom: 1rem;
 }
