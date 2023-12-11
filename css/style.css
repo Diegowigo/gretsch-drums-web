@@ -89,10 +89,6 @@ main section div {
   margin-top: 1rem;
 }
 
-.portada img {
-  padding-left: 3rem;
-}
-
 .portada p {
   font-size: 1.2rem;
   border-width: 0.1rem;
@@ -117,7 +113,8 @@ main section div {
 }
 
 #img-principal {
-  width: 75vh;
+  width: 100%;
+  max-width: 75vh;
 }
 
 /* INICIO */
@@ -185,13 +182,21 @@ main section div {
   padding-bottom: 0rem;
 }
 
+.accesorios .row {
+  align-items: flex-start;
+}
+
 .accesorios h2 {
   margin-top: 2rem;
 }
 
 .accesorios img {
   width: 100%;
-  max-width: 38vh;
+  max-width: 35vh;
+}
+
+.accesorios p {
+  padding-bottom: 1.5rem;
 }
 
 /* BOLETIN DE NOTICIAS */
@@ -260,14 +265,14 @@ footer ul {
   color: rgb(216, 216, 216);
 }
 
-.logos-link {
-  margin-top: 1rem;
-}
-
 footer li img {
   width: 1.5rem;
   display: flex;
   justify-content: space-around;
+}
+
+.logos-link {
+  margin-top: 1rem;
 }
 
 #logo-gretsch {
