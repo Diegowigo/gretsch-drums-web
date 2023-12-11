@@ -59,32 +59,37 @@
       </form>
     </section>
     <hr>
-    <section id="portada">
-      <div>
-        <h2>Baterías Gretsch</h2>
-        <p>
-          Baterías Gretsch es una icónica marca americana fabricadas en
-          Ridgeland, Carolina del Sur. <br />
-          Durante 140 años, nuestra compañía ganadora de premios ha
-          proporcionado <strong>"Ese gran sonido Gretsch"</strong> a
-          bateristas alrededor del mundo.
-        <p><a href="catalogo.html">Ver más</a>
-      </div>
-      <div>
-        <p>
-          <img id="img-principal" src="../img/gretsch-drums1.png" alt="Batería Gretsch" />
-        </p>
-      </div>
-    </section>
-    <section class="noticias">
-      <div>
-        <h3>Boletín de Noticias</h3>
-        <input itemid="email" type="email" placeholder="E-mail" name="email" id="email">
-        <input id="boton-noticias" type="button" value="Enviar">
-        <img id="img-footer" src="../img/gretsch-footer.jpg" alt="Pie de Página">
+
+    <section class="portada text-center">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
+        <div class="col">
+          <h1>Baterías Gretsch</h1>
+          <p>Baterías Gretsch es una icónica marca americana fabricadas en
+            Ridgeland, Carolina del Sur. <br>
+            Durante 140 años, nuestra compañía ganadora de premios ha
+            proporcionado <strong>"Ese gran sonido Gretsch"</strong> a
+            bateristas alrededor del mundo.</p>
+          <button type="button" class="btn btn-light"><a href="catalogo.html">Ver más</a></button>
+        </div>
+        <img class="col" id="img-principal" src="../img/gretsch-drums1.png" alt="Batería Gretsch" />
       </div>
     </section>
     <hr>
+
+    <section class="noticias">
+      <h2>Boletín de Noticias</h2>
+      <div class="row row-cols-2">
+        <div class="col-4">
+          <form class="noticias-form" action="">
+            <label for="email"></label>
+            <input itemid="email" type="email" placeholder="E-mail" name="email" id="email">
+            <label for="enviar"></label>
+            <input id="boton-noticias" type="button" value="Enviar">
+          </form>
+        </div>
+        <img class="col-6" id="noticias-img" src="../img/gretsch-footer.jpg" alt="Boletín de Noticias">
+      </div>
+    </section>
   </main>
   <hr>
 
