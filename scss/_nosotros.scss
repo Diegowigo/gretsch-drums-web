@@ -1,0 +1,79 @@
+// NOSOTROS
+
+.historia {
+    background: $color-bg;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 111.98px;
+
+    iframe {
+        width: 90%;
+        max-height: 75vh;
+        border: 6px solid $color-1;
+        border-radius: 3px;
+    }
+
+    h1 {
+        display: flex;
+        padding: 1.5rem 0 1.5rem 3rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin: 2rem 1rem 3rem 1rem;
+        padding: 1rem;
+    }
+}
+
+.historia-img {
+    background: $color-bg;
+    display: flex;
+    text-align: center;
+    padding: 0rem 2rem 2rem;
+
+    img {
+        width: 100%;
+        max-width: 362px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin: 2rem 1rem 3rem 1rem;
+        padding: 1rem;
+    }
+
+    h2 {
+        padding: 1rem 0rem;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .historia-box {
+        background-color: $color-bg-2;
+        border-radius: 10px;
+        box-shadow: 3.5px 3.5px 3.5px $color-1;
+    }
+
+    @media (max-width: 767px) {
+        article div {
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            padding: 1rem;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+            padding: 1rem;
+        }
+    }
+}

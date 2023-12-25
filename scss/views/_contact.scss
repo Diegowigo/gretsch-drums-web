@@ -1,0 +1,47 @@
+// CONTACTO
+
+.contacto {
+    background: $color-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 111.98px;
+    color: $color-texto;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        background-color: $color-bg-2;
+        border-radius: 18px;
+        padding: 0.5rem 0 1rem;
+        margin-bottom: 5rem;
+    }
+
+    h1 {
+        padding: 1rem;
+    }
+
+    label {
+        padding: 0.5rem;
+    }
+
+    input,
+    textarea {
+        margin: 0.5rem 2rem;
+        padding: 0.2rem;
+    }
+
+    #mensaje {
+        height: 25vh;
+    }
+
+    #enviar {
+        margin: 0.5rem 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+}

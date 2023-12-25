@@ -1,0 +1,52 @@
+/* CATÁLOGO */
+
+.catalogo {
+    background: $color-bg;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    
+
+    .tarjeta {
+        font-size: 1rem;
+        padding: 2.5rem;
+        padding-bottom: 0rem;
+    }
+
+    h1 {
+        margin-top: 1rem;
+    }
+
+    img {
+        width: 100%;
+        max-width: 75vh;
+    }
+}
+
+.accesorios {
+    background: $color-bg;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+
+    .tarjeta {
+        font-size: 1rem;
+        padding: 2.5rem;
+        padding-bottom: 0rem;
+    }
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    img {
+        width: 100%;
+        max-width: 35vh;
+    }
+
+    p {
+        padding-bottom: 1.5rem;
+    }
+}
