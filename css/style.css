@@ -84,6 +84,7 @@ footer li img:hover {
   margin-top: 111.98px;
   padding: 0 1.5rem;
   color: rgb(216, 216, 216);
+  overflow-x: hidden;
 }
 .contacto form {
   display: flex;
@@ -118,7 +119,6 @@ footer li img:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 /* PORTADA */
