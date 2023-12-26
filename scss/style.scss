@@ -1,6 +1,6 @@
 // IMPORT
-
-// @import "base/reset";
+// BASE
+// @import "base/reset"; no funciona este import por alguna razón
 
 // UTILITIES
 @import "utilities/vars";
@@ -20,9 +20,7 @@
 @import "catalogo";
 
 
-
-
-/* ESTILOS GLOBALES */
+// ESTILOS GLOBALES - no pude importarlos, los dejé aquí para que tomara los estilos
 
 * {
     font-family: "Jost", sans-serif;

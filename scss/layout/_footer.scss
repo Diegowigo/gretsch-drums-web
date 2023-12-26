@@ -39,5 +39,10 @@ footer {
         display: flex;
         justify-content: space-around;
         margin-top: 1rem;
+        transition: transform 0.3s ease-in-out;
+        
+        &:hover {
+            transform: translateY(-3.5px);
+        }
     }
 }

@@ -8,6 +8,7 @@
     content="Baterías Gretsch | Modelos y accesorios de nuestras baterías - Fotos y videos de nuestros productos e historia de nuestra marca a lo largo de los años - Gretsch">
   <meta name="keywords"
     content="gretsch, bateria, instrumento musical, musica, accesorios, baquetas, funda de platillos, baquetero">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css" />
@@ -26,7 +27,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <a href="index.html">
-          <img src="img/logos/gretsch-drums-logo.png" alt="Logo Gretsch Drums" />
+          <img  src="img/logos/gretsch-drums-logo.png" alt="Logo Gretsch Drums" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +58,7 @@
             bateristas alrededor del mundo.</p>
           <button type="button" class="btn btn-light"><a href="pages/catalogo.html">Ver más</a></button>
         </div>
-        <img class="col" id="img-principal" src="img/gretsch-drums1.png" alt="Batería Gretsch" />
+        <img data-aos="fade-left" data-aos-duration="1200" class="col" id="img-principal" src="img/gretsch-drums1.png" alt="Batería Gretsch" />
       </div>
     </section>
     <hr>
@@ -67,9 +68,11 @@
         <article class="tarjeta col">
           <img class="img-modelos" src="img/broadkaster-drums.png" alt="Modelo Broadkaster">
           <h3>Broadkaster</h3>
-          <p>Desde la década de 1920 hasta la de 1950, la batería insignia de Gretsch fue la legendaria <strong>Serie Broadkaster</strong>. 
+          <p>Desde la década de 1920 hasta la de 1950, la batería insignia de Gretsch fue la legendaria <strong>Serie
+              Broadkaster</strong>.
             Esta presentaba un casco delgado de tres capas y producía lo que sería conocido como <em><strong>"El Gran
-            Sonido Gretsch"</strong></em>. Hoy, en la fábrica de tambores Gretsch en Ridgeland, Carolina del Sur, EE. UU., con la
+                Sonido Gretsch"</strong></em>. Hoy, en la fábrica de tambores Gretsch en Ridgeland, Carolina del Sur,
+            EE. UU., con la
             ayuda de técnicas avanzadas de fabricación de tambores, el Broadkaster ha regresado, trayendo consigo toda
             la brillantez sonora de su homónimo. <br> Los cascos Broadkaster están hechos con una fórmula de
             arce/álamo/arce de América del Norte. Cada casco incluye una junta de empalme interior que proporciona una
@@ -80,12 +83,15 @@
           <img class="img-modelos" src="img/catalinamaple-drums.png" alt="Modelo Catalina Maple">
           <h3>Catalina Maple</h3>
           <p>Desde sus elegantes y innovadores diseños de hardware y su legendario cascarón con fórmula Gretsch,
-            <strong>Catalina Maple</strong> es un favorito entre los músicos que desean un excelente set de batería Gretsch con una
+            <strong>Catalina Maple</strong> es un favorito entre los músicos que desean un excelente set de batería
+            Gretsch con una
             experiencia de ejecución ergonómicamente satisfactoria y un aspecto fresco y contemporáneo. <br> El hardware
-            de montaje de Catalina Maple incluye una placa de montaje redonda para el bombo, llamada <strong>"gas cap"</strong>, y un
+            de montaje de Catalina Maple incluye una placa de montaje redonda para el bombo, llamada <strong>"gas
+              cap"</strong>, y un
             sistema de montaje GTS de perfil ultra bajo. Los tornillos y pernos de ala en forma de T de Gretsch se
             incluyen en todos los accesorios para proporcionar una sensación amigable para el baterista, y las garras de
-            fundición de aluminio aisladas con goma ayudan a mantener los aros del bombo como nuevos.</p>
+            fundición de aluminio aisladas con goma ayudan a mantener los aros del bombo como nuevos.
+          </p>
         </article>
 
         <article class="tarjeta col">
@@ -95,7 +101,8 @@
             banjos y panderetas. Nadie esperaba que su negocio en Middleton Street se convirtiera en una de las
             compañías de baterías más respetadas del mundo. Ahora, 140 años después, las baterías Gretsch se encuentran
             entre las más icónicas en la historia de la música. <br> Para celebrar nuestro 140 aniversario, Gretsch se
-            enorgullece en presentar la batería de edición limitada <strong>Gretsch 140th Anniversary</strong>. Cada uno de estos kits se
+            enorgullece en presentar la batería de edición limitada <strong>Gretsch 140th Anniversary</strong>. Cada uno
+            de estos kits se
             construye minuciosamente para honrar el rico legado de Gretsch y ofrecer a los bateristas una pieza
             coleccionable de la historia de Gretsch que los admiradores recordarán durante años.</p>
         </article>
@@ -154,6 +161,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
