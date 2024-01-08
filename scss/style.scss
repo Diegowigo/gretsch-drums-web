@@ -1,6 +1,6 @@
 // IMPORT
 // BASE
-// @import "base/reset"; no funciona este import por alguna razón
+@import "base/reset";
 
 // UTILITIES
 @import "utilities/vars";
@@ -18,51 +18,3 @@
 @import "nosotros";
 @import "media";
 @import "catalogo";
-
-
-// ESTILOS GLOBALES - no pude importarlos, los dejé aquí para que tomara los estilos
-
-* {
-    font-family: "Jost", sans-serif;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    box-sizing: border-box;
-
-    main {
-        margin-top: 111.98px;
-    }
-
-    h1 {
-        color: $color-texto;
-        font-size: 2rem;
-        letter-spacing: 3px;
-    }
-
-    h2 {
-        color: $color-texto;
-        letter-spacing: 3px;
-    }
-
-    h3 {
-        color: $color-texto;
-    }
-
-    hr {
-        margin: auto;
-        color: #4c5265;
-    }
-
-    .row {
-        --bs-gutter-x: 0;
-        margin-top: 0;
-    }
-
-    p {
-        margin-bottom: 0;
-        color: $color-texto;
-    }
-}
-
-
-

@@ -6,38 +6,40 @@
     padding: 0;
     list-style-type: none;
     box-sizing: border-box;
+}
 
-    main {
-        margin-top: 111.98px;
-    }
+$color-texto: rgb(216, 216, 216); // variable definida en este scss ya que no tomaba las variables de _vars.scss
 
-    h1 {
-        color: $color-texto;
-        font-size: 2rem;
-        letter-spacing: 3px;
-    }
+main {
+    margin-top: 111.98px;
+}
 
-    h2 {
-        color: $color-texto;
-        letter-spacing: 3px;
-    }
+h1 {
+    color: $color-texto;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
 
-    h3 {
-        color: $color-texto;
-    }
+h2 {
+    color: $color-texto;
+    letter-spacing: 3px;
+}
 
-    hr {
-        margin: auto;
-        color: #4c5265;
-    }
+h3 {
+    color: $color-texto;
+}
 
-    .row {
-        --bs-gutter-x: 0;
-        margin-top: 0;
-    }
+hr {
+    margin: auto;
+    color: #4c5265;
+}
 
-    p {
-        margin-bottom: 0;
-        color: $color-texto;
-    }
+.row {
+    --bs-gutter-x: 0;
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+    color: $color-texto;
 }
