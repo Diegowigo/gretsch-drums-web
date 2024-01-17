@@ -10,7 +10,7 @@
     .tarjeta {
         font-size: 1rem;
         padding: 2.5rem;
-        padding-bottom: 0rem;
+        padding-bottom: 1rem;
     }
 
     h1 {
@@ -36,8 +36,16 @@
         padding-bottom: 0rem;
     }
 
+    .row {
+        justify-content: center;
+    }
+
     h2 {
         margin-top: 2rem;
+    }
+
+    .resize {
+        max-height: 221.08px;
     }
 
     img {

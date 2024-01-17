@@ -90,9 +90,12 @@
     }
 
     img {
-        max-width: 1050px;
+        max-width: 900px;
         width: 75vw;
         margin-bottom: 33.59px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
     }
 }
 
@@ -107,8 +110,14 @@
         width: 100px;
     }
 
+    #noticias-boton {
+        border-radius: 4px;
+    }
+
     #email {
         margin: 1rem;
         width: 250px;
+        border-radius: 4px;
+        padding: 0.2rem;
     }
 }
