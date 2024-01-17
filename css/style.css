@@ -152,6 +152,10 @@ footer li img:hover {
   margin: 0.5rem 2rem;
   padding: 0.1rem;
 }
+.contacto img {
+  width: 100%;
+  max-width: 75vh;
+}
 .contacto #mensaje {
   height: 25vh;
 }
@@ -169,6 +173,7 @@ footer li img:hover {
   display: flex;
   text-align: center;
   background: radial-gradient(circle, rgb(50, 57, 73) 0%, rgb(33, 33, 41) 80%);
+  overflow-x: hidden;
 }
 .portada .center {
   justify-content: center;
