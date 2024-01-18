@@ -63,7 +63,7 @@ footer a {
   color: rgb(216, 216, 216);
 }
 footer a img {
-  max-width: 100px;
+  max-width: 80px;
   width: 25vw;
   margin-bottom: 1rem;
 }
@@ -121,9 +121,10 @@ footer li img:hover {
 .contacto {
   background: #262630;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   text-align: center;
+  flex-direction: column;
   margin-top: 101.98px;
   padding: 0 1.5rem;
   color: rgb(216, 216, 216);
@@ -150,7 +151,8 @@ footer li img:hover {
 .contacto input,
 .contacto textarea {
   margin: 0.5rem 2rem;
-  padding: 0.1rem;
+  padding: 0.2rem;
+  border-radius: 4px;
 }
 .contacto img {
   width: 100%;
@@ -182,12 +184,12 @@ footer li img:hover {
 .portada .row {
   margin-right: auto;
 }
+.portada .portada-padding {
+  padding: 1rem;
+}
 .portada .btn-light {
   --bs-btn-bg: black;
   --bs-btn-hover-bg: none;
-}
-.portada h1 {
-  margin-top: 1rem;
 }
 .portada p {
   font-size: 1.2rem;
@@ -262,24 +264,14 @@ footer li img:hover {
 }
 .noticias-form input {
   width: 100px;
-}
-.noticias-form #noticias-boton {
   border-radius: 4px;
 }
 .noticias-form #email {
   margin: 1rem;
   width: 250px;
-  border-radius: 4px;
   padding: 0.2rem;
 }
 
-.historia {
-  background: #262630;
-  display: flex;
-  align-items: flex-start;
-  text-align: center;
-  margin-top: 101.98px;
-}
 .historia iframe {
   width: 90%;
   max-height: 75vh;
@@ -299,6 +291,8 @@ footer li img:hover {
 .historia-img {
   background: #262630;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   text-align: center;
   padding: 0rem 2rem 2rem;
   overflow: hidden;
@@ -342,13 +336,6 @@ footer li img:hover {
 }
 
 /* MEDIA */
-.videos {
-  background: #262630;
-  display: flex;
-  align-items: flex-start;
-  text-align: center;
-  margin-top: 101.98px;
-}
 .videos .row {
   justify-content: center;
 }
@@ -409,33 +396,26 @@ footer li img:hover {
   }
 }
 /* CATÁLOGO */
-.catalogo {
+.catalogo, .accesorios, .historia, .videos {
   background: #262630;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   text-align: center;
 }
-.catalogo .tarjeta {
+.catalogo .tarjeta, .accesorios .tarjeta, .historia .tarjeta, .videos .tarjeta {
   font-size: 1rem;
   padding: 2.5rem;
   padding-bottom: 1rem;
 }
-.catalogo h1 {
+.catalogo h1, .accesorios h1, .historia h1, .videos h1 {
   margin-top: 1rem;
 }
-.catalogo img {
+.catalogo img, .accesorios img, .historia img, .videos img {
   width: 100%;
   max-width: 75vh;
 }
 
-.accesorios {
-  background: #262630;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: center;
-}
 .accesorios .tarjeta {
   font-size: 1rem;
   padding: 2.5rem;

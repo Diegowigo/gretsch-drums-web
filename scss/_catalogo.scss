@@ -1,11 +1,7 @@
 /* CATÁLOGO */
 
 .catalogo {
-    background: $color-bg;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+    @include flex-bg-color;
 
     .tarjeta {
         font-size: 1rem;
@@ -24,11 +20,7 @@
 }
 
 .accesorios {
-    background: $color-bg;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+   @extend .catalogo;
 
     .tarjeta {
         font-size: 1rem;

@@ -1,11 +1,7 @@
 // NOSOTROS
 
 .historia {
-    background: $color-bg;
-    display: flex;
-    align-items: flex-start;
-    text-align: center;
-    margin-top: 101.98px;
+    @extend .catalogo;
 
     iframe {
         width: 90%;
@@ -27,9 +23,7 @@
 }
 
 .historia-img {
-    background: $color-bg;
-    display: flex;
-    text-align: center;
+    @include flex-bg-color;
     padding: 0rem 2rem 2rem;
     overflow: hidden;
 

@@ -1,11 +1,8 @@
 // CONTACTO
 
 .contacto {
-    background: $color-bg;
-    display: flex;
+    @include flex-bg-color;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     margin-top: 101.98px;
     padding: 0 1.5rem;
     color: $color-texto;
@@ -36,7 +33,8 @@
     input,
     textarea {
         margin: 0.5rem 2rem;
-        padding: 0.1rem;
+        padding: 0.2rem;
+        border-radius: 4px;
     }
 
     img {

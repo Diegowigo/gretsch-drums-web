@@ -1,11 +1,7 @@
 /* MEDIA */
 
 .videos {
-    background: $color-bg;
-    display: flex;
-    align-items: flex-start;
-    text-align: center;
-    margin-top: 101.98px;
+    @extend .catalogo;
 
     .row {
         justify-content: center;
@@ -36,12 +32,8 @@
 }
 
 .fotos {
-    background: $color-bg;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
-
+    @include flex-bg-color;
+    
     .row {
         justify-content: center;
     }
